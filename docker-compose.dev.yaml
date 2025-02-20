@@ -3,7 +3,7 @@ services:
   backend:
     build:
       context: ./backend
-      dockerfile: Dockerfile.chisel.full
+      dockerfile: Dockerfile.advancedv2
     container_name: backend
     ports:
       - 8000:8000
@@ -18,7 +18,7 @@ services:
   frontend:
     build:
       context: ./frontend
-      dockerfile: Dockerfile.chisel.full
+      dockerfile: Dockerfile.advancedv2
     container_name: frontend
     ports:
       - 8501:8501
