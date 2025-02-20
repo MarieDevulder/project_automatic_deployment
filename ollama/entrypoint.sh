@@ -9,7 +9,7 @@ pid=$!
 sleep 5
 
 echo "🔴 Retrieve phi4 model..."
-ollama pull phi4
+ollama pull tinyllama
 echo "🟢 Done!"
 
 # Wait for Ollama process to finish.
